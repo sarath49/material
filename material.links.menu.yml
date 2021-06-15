@@ -1,0 +1,6 @@
+material.weather.link:
+  title: 'Weather'
+  description: 'Material weather'
+  route_name: material.weather
+  menu_name: main
+  weight: 100

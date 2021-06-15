@@ -1,0 +1,16 @@
+<?php
+
+
+/**
+ * Implements hook_theme().
+ */
+function material_theme() {
+  return [
+    'material_weather' => [
+      'variables' => [
+        'items' => [],
+        'city' => NULL,
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,12 @@
+<div class="section group">
+<div class="col span_1_of_6">
+  <h3>{{ city }} Climate</h3>
+</div>
+{% for item in items %}
+  <div class="col span_1_of_6">
+    <p>{{ item.applicable_date|date("m/d/Y") }}</p>
+	<img src="https://www.metaweather.com/static/img/weather/png/64/{{ item.weather_state_abbr }}.png" /><br />
+    <p>{{ item.weather_state_name }}</p>
+  </div>
+{% endfor %}
+</div>

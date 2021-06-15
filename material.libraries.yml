@@ -1,0 +1,4 @@
+responsive:
+  css:
+    theme:
+      css/responsive.css: {}
